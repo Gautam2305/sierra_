@@ -1,0 +1,9 @@
+:root{
+    --st-primary: #ec197b; 
+    --st-primary-light: #fd489d;
+    --st-secondary: #1dd396;
+    --st-primary-text: #29323f;
+    --st-mid-red: #e61934;
+    --st-main-text: 'Poppins', sans-serif;
+    --st-other-text: 'Montserrat', sans-serif; 
+}
