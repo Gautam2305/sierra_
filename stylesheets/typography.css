@@ -20,15 +20,21 @@ h3 {
 }
 h4 {
     font-family: var(--st-other-text);
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5rem;
-    font-size: 1.25rem;
+    font-size: 0.75rem;
 }
 h5 {
     font-family: var(--st-main-text);
     font-weight: 200;
     line-height: 1rem;
     font-size: 1.25rem;
+}
+h6 {
+    font-family: var(--st-main-text);
+    font-weight: 400;
+    line-height: 1rem;
+    font-size: 0.60rem;
 }
 p {
     font-family: var(--st-other-text);
