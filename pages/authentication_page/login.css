@@ -1,0 +1,95 @@
+.main-nav{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    max-width: 100%;
+    height: 76px;
+}
+.main-login{
+    background-color: var(--st-light-pink);
+    max-width: 100%;
+    height: calc(100vh - 80px);
+}
+.brand-name{
+    width: 8rem;
+    color: var(--st-primary);
+}
+.nav-category{
+    display: flex;
+}
+.category-link{
+    text-decoration: none;
+    padding: 0.65rem 1rem;
+    color: var(--st-primary-text);
+}
+.nav-icons{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.men-categ-link:hover{
+    border-bottom: 4px solid var(--st-secondary);
+}
+.women-categ-link:hover{
+    border-bottom: 4px solid var(--st-primary);
+}
+.kids-categ-link:hover{
+    border-bottom: 4px solid var(--st-blue);
+}
+.beauty-categ-link:hover{
+    border-bottom: 4px solid var(--st-orange);
+}
+.nav-search{
+    background-color: var(--st-light-grey);
+    border: none;
+    border-radius: 3px;
+    margin: 0.5rem 5rem;
+    padding-left: 0.4rem;
+    width: 18rem;
+    font-family: var(--st-other-text);
+}
+.login-email-id, .login-pw{
+    border: none;
+    border-radius: 3px;
+    padding-left: 0.4rem;
+}
+.nav-search::-webkit-input-placeholder { 
+    font-size: 0.65rem;
+    font-family: var(--st-other-text);
+}
+.login-email-id::-webkit-input-placeholder, .login-pw::-webkit-input-placeholder { 
+    font-size: 0.75rem;
+    font-family: var(--st-other-text);
+}
+input[type=text]{
+    padding-left: 0.4rem;
+    border: none;
+}
+input[type=text].nav-search{
+    font-size: 0.75rem;
+}
+.modal-login{
+    margin: auto;
+    width: 15rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+.primary-text-color{
+    color: var(--st-primary);
+}
+.btn-primary-solid{
+    background-color: var(--st-primary);
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}
+.btn-primary-solid:hover{
+    background-color: var(--st-primary-dark);
+}
+.link-primary-solid{
+    text-decoration: none;
+    color: var(--st-white);
+}

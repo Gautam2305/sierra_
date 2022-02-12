@@ -1,0 +1,4 @@
+.login-username::-webkit-input-placeholder{ 
+    font-size: 0.75rem;
+    font-family: var(--st-other-text);
+}

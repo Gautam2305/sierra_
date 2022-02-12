@@ -1,0 +1,7 @@
+@import "/stylesheets/reset.css";
+@import "/stylesheets/typography.css";
+@import "/stylesheets/variables.css";
+
+@import "/pages/authentication_page/login.css";
+@import "/pages/authentication_page/signup.css";
+@import "/pages/authentication_page/logout.css";
