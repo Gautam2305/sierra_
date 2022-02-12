@@ -51,7 +51,7 @@
     width: 18rem;
     font-family: var(--st-other-text);
 }
-.login-email, .login-pw{
+.login-email-id, .login-pw{
     border: none;
     border-radius: 3px;
     padding-left: 0.4rem;
@@ -60,7 +60,7 @@
     font-size: 0.65rem;
     font-family: var(--st-other-text);
 }
-.login-email::-webkit-input-placeholder, .login-pw::-webkit-input-placeholder { 
+.login-email-id::-webkit-input-placeholder, .login-pw::-webkit-input-placeholder { 
     font-size: 0.75rem;
     font-family: var(--st-other-text);
 }
