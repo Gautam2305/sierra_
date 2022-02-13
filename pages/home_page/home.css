@@ -1,0 +1,32 @@
+.sale-img-container, 
+.top-brand-container,
+.most-loved-container,
+.footwear-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 1rem;
+    gap: 1rem;
+    cursor: pointer;
+}
+.offer-image{
+    margin: 0rem 1rem;
+    cursor: pointer;
+}
+.brand-heading{
+    padding: 0.5rem;
+    text-align: center;
+    color: var(--st-primary);
+    font-weight: 500;
+    border-bottom: 2px solid var(--st-primary);
+}
+.main-foot{
+    max-width: 100%;
+    background-color: var(--st-primary);
+    color: var(--st-white);
+    text-align: center;
+}
+.social-link{
+    font-size: 2rem;
+    margin: 1rem;
+    color: var(--st-white);
+}
