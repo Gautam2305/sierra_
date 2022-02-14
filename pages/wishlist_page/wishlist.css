@@ -1,0 +1,48 @@
+.wishlist-main{
+    display: flex;
+    gap: 1rem;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.card-container{
+    max-width: 18%;
+    height: auto;
+    background-color: var(--st-white);
+    padding: 1rem;
+    margin: auto;
+}
+.prod-img{
+    max-width: 100%;
+    position: relative;
+}
+.brand-name{
+    letter-spacing: 8px;
+}
+.wishlist-btn{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color: var(--st-mid-red);
+    background-color: var(--st-white);
+    padding: 0.25rem 0.5rem;
+    border-radius: 50%;
+}
+.btn-primary-outline{
+    border: 3px solid var(--st-primary);
+    cursor: pointer;
+    width: 101%;
+}
+.link-primary-outline{
+    text-decoration: none;
+    color: var(--st-primary);
+}
+.prod-price-detail{
+    display: flex;
+}
+.prod-old-price{
+    text-decoration: line-through;
+    font-weight: 500;
+}
+.btn-primary-solid{
+    margin: 2px;    
+}
