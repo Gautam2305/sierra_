@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/s-solid.svg" />
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/184c79d39f.js" crossorigin="anonymous"></script>
+    <title>Sierra | Cart</title>
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-category">
+            <h3 class="brand-name">SIERRA</h3>
+            <a class="category-link men-categ-link" href="#"><h4> MEN </h4></a>
+            <a class="category-link women-categ-link" href="#"><h4> WOMEN </h4></a>
+            <a class="category-link kids-categ-link" href="#"><h4> KIDS </h4></a>
+            <a class="category-link beauty-categ-link" href="#"><h4> BEAUTY </h4></a>
+        </div>
+        <input class="nav-search" type="text" placeholder="Search for products, brands & more...">
+        <div class="nav-icons">
+            <button class="btn-primary-solid"><a class="link-primary-solid"  href="#"><h4>LOGOUT</h4></a></button>
+            <div class="user-icon"><i class="fa-solid fa-user"></i>
+            <h6> Profile</h6></div>
+            <div class="wishlist-icon"><i class="fa-regular fa-heart"></i><h6> Wishlist</h6></div>
+            <div class="bag-icon"><i class="fa-solid fa-bag-shopping"></i><h6> Bag</h6></div>
+        </div>
+    </nav>
+    <div class="card-container cart-container">
+        <div class="prod-container">
+            <div class="prod-img-container">
+                <div class="prod-img">
+                    <img src="/assets/product-img.png" alt="sweatshirt">
+                </div>
+            </div>
+            <div class="prod-name cart-prod-details"><h4>PUMA </h4><span><p> Men Colourblocked Sweatshirt</p></span>
+                <div class="prod-price-detail">
+                    <div class="prod-price"><h4><i class="fa-solid fa-rupee-sign">.</i> 999</h4> 
+                    <p class="prod-old-price"><i class="fa-solid fa-rupee-sign">.</i> 2599</p>
+                    <p><span class="primary-text-color"> (70% OFF)</p></div>
+                </div>
+                <div class="cta-button cta-button-cart">
+                    <div class="quantity-container">  
+                        <h4>Quantity: <button class="minus-btn">-</button><span>1</span><button class="plus-btn"> + </button></h4>
+                    </div>
+                    <button class="btn-primary-solid"><a class="link-primary-solid"  href="#"><h4>REMOVE FROM CART</h4></a></button>
+                    <button class="btn-primary-outline"><a class="link-primary-outline"  href="#"><h4>MOVE TO WISHLIST</h4></a></button>
+                </div>
+            </div>
+        </div>
+        <div class="order-detail-container">
+            <h4>ORDER DETAILS</h4>
+            <hr>
+            <div class="price-detail-div">
+                <div>
+                    <ul class="price-detail-list">
+                        <li><h4>Price :</h4></li>
+                        <li><h4>Discount : </h4></li>
+                        <li><h4>Delivery Charges : </h4></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="price-list">
+                        <li style="padding-left: 10px;"><h4><i class="fa-solid fa-rupee-sign">.</i> 999</h4></li>
+                        <li><h4> - <i class="fa-solid fa-rupee-sign">.</i> 1600</h4></li>
+                        <li style="padding-left:10px;"><h4> <i class="fa-solid fa-rupee-sign">.</i> 50</h4></li>
+                        <li></li>
+                    </ul>
+                </div>    
+            </div> 
+            <hr>
+            <div class="total-amt-container">
+                <h4>TOTAL AMOUNT</h4>
+                <h4 style="padding-left: 90px;"> <i class="fa-solid fa-rupee-sign">.</i> 1049</h4>
+            </div>
+            <hr>
+            <h4>You will save <i class="fa-solid fa-rupee-sign">.</i> 1049 on this order</h4>
+            <div class="secondary-btn-container">
+                <button class="btn-secondary-solid"><a class="link-primary-solid"  href="#"><h4>PLACE ORDER</h4></a></button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
