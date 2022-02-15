@@ -30,3 +30,11 @@
     margin: 1rem;
     color: var(--st-white);
 }
+.btn-icon{
+    text-decoration: none;
+    color: var(--st-primary-text);
+    cursor: pointer;
+}
+.bag-icon{
+    color: var(--st-primary);
+}
