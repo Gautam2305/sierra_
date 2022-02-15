@@ -1,0 +1,16 @@
+.product-page-container{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+.product-list-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    background-color: var(--st-light-pink);
+}
+.prod-price-details{
+    
+}
+.filter-category{
+    display: block;
+}

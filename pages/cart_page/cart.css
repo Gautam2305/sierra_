@@ -8,7 +8,6 @@
     grid-template-columns: repeat(2,200px);
     align-items: center;
     justify-items: center;
-    max-width: 40%;
     padding: 1rem;
 }
 .order-detail-container{
