@@ -8,8 +8,8 @@
     flex-flow: row wrap;
     background-color: var(--st-light-pink);
 }
-.prod-price-details{
-    
+.card-container{
+    margin: 0.5rem;
 }
 .filter-category{
     display: block;
