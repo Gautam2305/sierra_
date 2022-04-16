@@ -11,7 +11,7 @@
     height: calc(100vh - 80px);
 }
 .brand-name{
-    width: 8rem;
+    width: 10rem;
     color: var(--st-primary);
 }
 .nav-category{
@@ -50,6 +50,7 @@
     padding-left: 0.4rem;
     width: 18rem;
     font-family: var(--st-other-text);
+    outline: none;
 }
 .login-email-id, .login-pw{
     border: none;
